@@ -20,7 +20,7 @@ function getLocation() {
 }
 
 function showPosition(position) {
-  x.innerHTML = "<br><br>Timestamp: " + position.coords.timestamp + 
+  x.innerHTML = "<br><br>Time: " + (new Date()) + 
   "<br>Latitude: " + position.coords.latitude + 
   "<br>Longitude: " + position.coords.longitude + 
   "<br>Accuracy: " + position.coords.accuracy + 
